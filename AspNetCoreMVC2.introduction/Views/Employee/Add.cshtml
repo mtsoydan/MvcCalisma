@@ -1,0 +1,15 @@
+﻿@model AspNetCoreMVC2.introduction.Models.EmployeeAddViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+    <form asp-controller="Employee" asp-action="Add">
+        denemeID- <label asp-for="Employee.Id"></label><input asp-for=Employee.Id /> <br />
+        Name:<input asp-for=Employee.Name /> <br />
+        City ID <select asp-for="Employee.CityId" asp-items="Model.Cities"></select>
+        <button type="submit">add </button>
+    </form>
+    <br /><br /><br />
+<employee-list count="3"></employee-list>

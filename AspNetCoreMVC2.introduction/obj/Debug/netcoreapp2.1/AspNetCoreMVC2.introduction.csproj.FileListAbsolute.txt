@@ -61,4 +61,5 @@ C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCore
 C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCoreMVC2.introduction\obj\Debug\netcoreapp2.1\AspNetCoreMVC2.introduction.dll
 C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCoreMVC2.introduction\obj\Debug\netcoreapp2.1\AspNetCoreMVC2.introduction.pdb
 C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCoreMVC2.introduction\obj\Debug\netcoreapp2.1\AspNetCoreMVC2.introduction.csproj.CopyComplete
-C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCoreMVC2.introduction\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCoreMVC2.introduction\obj\Debug\netcoreapp2.1\Razor\Pages\Customer\Index.g.cshtml.cs
+C:\Users\asus\Documents\GitHub\MvcCalisma\AspNetCoreMVC2.introduction\AspNetCoreMVC2.introduction\obj\Debug\netcoreapp2.1\Razor\Pages\Studentp\Index.g.cshtml.cs

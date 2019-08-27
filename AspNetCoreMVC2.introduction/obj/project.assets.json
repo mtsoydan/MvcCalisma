@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asus\\source\\repos\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction.csproj",
+      "projectUniqueName": "C:\\Users\\asus\\Documents\\GitHub\\MvcCalisma\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction.csproj",
       "projectName": "AspNetCoreMVC2.introduction",
-      "projectPath": "C:\\Users\\asus\\source\\repos\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction.csproj",
+      "projectPath": "C:\\Users\\asus\\Documents\\GitHub\\MvcCalisma\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction.csproj",
       "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asus\\source\\repos\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction\\obj\\",
+      "outputPath": "C:\\Users\\asus\\Documents\\GitHub\\MvcCalisma\\AspNetCoreMVC2.introduction\\AspNetCoreMVC2.introduction\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

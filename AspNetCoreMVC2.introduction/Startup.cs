@@ -59,7 +59,7 @@ namespace AspNetCoreMVC2.introduction
 
         private void ConfigureRoutes(IRouteBuilder routeBuilders)
         {
-            routeBuilders.MapRoute("default", "{controller=Home}/{action=Index2}/{id?}");
+            routeBuilders.MapRoute("default", "{controller=Filter}/{action=Index}/{id?}");
             routeBuilders.MapRoute("MyRoutes", "MTS/{controller=Home}/{action=Index3}/{id?}");
 
 

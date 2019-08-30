@@ -26,7 +26,14 @@ namespace AspNetCoreMVC2.introduction
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddScoped<ICalculator, Calculate18>();//Servisin örneği oluşturulu her kullanıcı için
+
+
             //services.AddSingleton<ICalculator, Calculate18>();//Servisin örneği oluşturulu her kullanıcı için ayrı ayrı değil tek seferde bir kez
+
+            //session bilgisini aktifleştiriyoruz
+            services.AddSession();
+            //Veriyi bellekte tutmamızı sağlayan kod blokları
+            services.AddDistributedMemoryCache();
 
         }
 
@@ -34,9 +41,16 @@ namespace AspNetCoreMVC2.introduction
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseStaticFiles();
+            //Projeyi canlıya alınca oluşan hata kodları ekrana verilmez
+            env.EnvironmentName = EnvironmentName.Production;
+            app.UseSession();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/error");
             }
 
             //app.UseMvc(routes =>

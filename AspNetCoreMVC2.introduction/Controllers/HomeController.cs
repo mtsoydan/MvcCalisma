@@ -17,6 +17,7 @@ namespace AspNetCoreMVC2.introduction.Controllers
         }
         public ViewResult Index2()
         {
+            throw new Exception("error");
             return View();
         }
         public ViewResult Index3()

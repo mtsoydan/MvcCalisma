@@ -76,6 +76,13 @@ namespace AspNetCoreMVC2.introduction
             routeBuilders.MapRoute("default", "{controller=Filter}/{action=Index}/{id?}");
             routeBuilders.MapRoute("MyRoutes", "MTS/{controller=Home}/{action=Index3}/{id?}");
 
+            routeBuilders.MapRoute(name: "areas",
+                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+              
+                 
+       
+
+
 
         }
     }
